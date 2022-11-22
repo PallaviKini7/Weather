@@ -1,0 +1,30 @@
+.recent-search {
+
+   
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.rec img {
+    height: 84px;
+    width: 159px;
+}
+.no-rec-added
+{
+    height: 21px;
+    width: 167px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 10px;
+}

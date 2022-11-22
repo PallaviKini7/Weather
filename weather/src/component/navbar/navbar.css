@@ -1,0 +1,158 @@
+.navbar {
+    /* background-color: rgb(238, 55, 55); */
+    height: 140px;
+    position: absolute;
+    top: 0;
+    width: 80%;
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.653);
+
+}
+
+.logo-img {
+    height: 30px;
+    width: 142px;
+    position: absolute;
+    top: 43px;
+
+}
+
+.search-bar {
+    /* background-color: brown; */
+    height: 45px;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 33px;
+
+
+}
+
+form {
+    height: 100%;
+}
+
+.search-bar input {
+    box-sizing: border-box;
+    border: 1px solid #ffffff47;
+    /* opacity: 0.3; */
+    height: 100%;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.23);
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    color: #ffffff;
+
+
+}
+
+::placeholder {
+    height: 19px;
+    width: 79px;
+    /* opacity: 0.8; */
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+i {
+    position: absolute;
+    right: 20px;
+    color: white;
+    top: 15px;
+}
+
+.bottom-icons {
+    /* background-color: red; */
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+}
+
+.compo {
+
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+}
+.home-cmp
+{
+   
+    width: 4rem;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home1
+{
+    width: 100px;
+    /* padding-right: 10%; */
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+
+}
+.home2
+{
+    /* padding-right: 10%; */
+    width: 140px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #FFFFFF;
+    /* background-color: chocolate; */
+  
+}
+.active
+{
+    border-bottom: 2px solid #ffd739;
+    color: #FFD639;
+    /* background-color: aqua; */
+    
+}
+
+.date-display {
+    /* background-color: aquamarine; */
+    height: 20px;
+    width: 40%;
+    /* width: 40rem; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    right: 0;
+}
+
+.date-time {
+    height: 16px;
+    /* width: 187px; */
+    color: #FFFFFF;
+    width: 100%;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: right;
+}

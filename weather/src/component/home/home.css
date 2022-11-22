@@ -1,0 +1,225 @@
+.home {
+    /* background-color: brown; */
+    width: 80%;
+    height: 653px;
+    position: relative;
+    top: 80px;
+}
+
+.city-name {
+
+    height: 50px;
+    width: 40%;
+    margin-top: 20px;
+    padding-left: 9px;
+}
+
+.fav-img {
+    height: 17px;
+    width: 18px;
+}
+
+.add-to-fav {
+    display: flex;
+    height: 17px;
+    width: 219px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.city {
+    height: 24px;
+    width: 153px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+
+.fav-text {
+    height: 15px;
+    width: 98px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+    padding-left: 3px;
+}
+
+.center-icons {
+    /* background-color: chartreuse; */
+    height: 40%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+
+}
+
+.sun-img {
+    height: 84px;
+    width: 80px;
+}
+
+.temp-text {
+    height: 75px;
+    width: 73px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 75px;
+}
+
+.switch {
+    display: flex;
+    flex-direction: row;
+}
+
+.center-items {
+    width: 100%;
+    height: 67%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+}
+
+.toggle {
+    padding-top: 35px;
+}
+
+.text-basedon-temp {
+    height: 25px;
+    width: 132px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    /* font-weight: 300; */
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-items {
+
+    /* background-color: black; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.degree img {
+    /* box-sizing: border-box; */
+    height: 31.77px;
+    width: 15.66px;
+    /* border: 2px solid #FFFFFF; */
+}
+
+.degree {
+    height: 49px;
+    width: 10%;
+    /* background-color: blue; */
+    display: flex;
+    margin-left: 10%;
+
+}
+
+.degree-text {
+    padding-left: 15px;
+
+}
+
+.min-max {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.digit {
+    height: 25px;
+    width: 69px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+    padding-top: 5px;
+}
+
+.percipitation img {
+    height: 29px;
+    width: 30px;
+
+}
+
+.percipitation {
+    display: flex;
+    width: 10%;
+    margin-left: 5%;
+    /* margin-left: 5%; */
+
+}
+
+.humidity {
+    display: flex;
+    width: 10%;
+    margin-left: 5%;
+    /* margin-left: 5%; */
+}
+
+.humidity img {
+    height: 25px;
+    width: 19px;
+}
+
+.wind {
+    display: flex;
+    width: 10%;
+    margin-left: 5%;
+    /* margin-left: 5%; */
+}
+
+.wind img {
+    height: 22px;
+    width: 32px;
+
+}
+
+.visibility img {
+    height: 20px;
+    width: 34px;
+}
+.visibility
+{
+    display: flex;
+    width: 10%;
+    margin-left: 5%;
+    /* margin-left: 5%; */
+}
