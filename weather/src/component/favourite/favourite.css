@@ -1,13 +1,13 @@
 .favourite {
 
-   
-    position: relative;
-  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
+    /* top: 30px; */
+
 
 }
 
@@ -15,8 +15,8 @@
     height: 84px;
     width: 159px;
 }
-.no-favrt-added
-{
+
+.no-favrt-added {
     height: 21px;
     width: 167px;
     color: #FFFFFF;
@@ -27,4 +27,99 @@
     line-height: 21px;
     text-align: center;
     padding-top: 10px;
+}
+
+.fav {
+    display: none;
+}
+
+.fav-container {
+    height: 653px;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 80%;
+    top: 30px;
+
+}
+
+.favourite-data {
+    top: 0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 15px;
+    font-weight: 300;
+}
+
+.data {
+    height: 73px;
+    width: 960px;
+    /* opacity: 0.2; */
+    top: 60px;
+    width: 100%;
+    /* margin-top: -572px; */
+    position: relative;
+    background-color: #ffffff27;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.obtained-image-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.obtn-img {
+    height: 38px;
+    width: 36px;
+}
+
+.obtained-city {
+    height: 19px;
+    width: 124px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.obtn-temp {
+    height: 38px;
+    width: 37px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 38px;
+}
+
+.c {
+    height: 24px;
+    width: 17px;
+}
+
+.obtn-txt {
+    height: 21px;
+    width: 108px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21px;
 }
