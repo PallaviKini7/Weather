@@ -1,7 +1,11 @@
 import React from 'react'
 import './favourite.css'
+import {useSelector} from 'react-redux'
+
 
 const Favourite = () => {
+
+ 
   return (
     <div className='fav-container'>
       <div className='favourite'>
@@ -19,6 +23,7 @@ const Favourite = () => {
       <div className='city-added'>6 city added as favourite</div>
       <div className='remove-all'>Remove All</div>
     </div>
+
     <div className='data'>
       
       <div className='obtained-city'>Udupi,Karnataka</div>
@@ -32,6 +37,7 @@ const Favourite = () => {
         <img src= {require ('../../asset/images/icon_favourite_Active.png')} alt="" />
       </div>
     </div>
+ 
    
     
 

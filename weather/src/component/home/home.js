@@ -1,30 +1,45 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './home.css'
 import Switch from "react-switch";
+import { useSelector } from 'react-redux';
 
 const Home = () => {
+
+  
+
+  const items = useSelector(state => state.locationdata.value)
+
+
   const [checked, setChecked] = useState(false);
   const handleChange = () => {
     setChecked(!checked);
   };
+
+  let farenheit = items && items.current_observation && items.current_observation.condition.temperature;
+  let celsius = [(farenheit-32 )*5]/9
+
   return (
     <div className='home'>
       <div className='city-name'>
-        <div className='city'>Udupi, Karnataka</div>
+        <div className='city'>
+          {items && items.location && items.location.city},&nbsp;
+          {items && items.location && items.location.country}
+        </div>
         <div className='add-to-fav'>
-          <img src={require ('../../asset/images/icon_favourite.png')} alt="" className='fav-img' />
-         <div className='fav-text'>Add to favourite</div>
+          <img src={require('../../asset/images/icon_favourite.png')} alt="" className='fav-img' />
+          <div className='fav-text'>Add to favourite</div>
         </div>
-        </div>
-        <div className='center-items'>
+      </div>
+      <div className='center-items'>
         <div className='center-icons'>
           <div className='sun-img'>
-            <img src={require ('../../asset/images/icon_mostly_sunny.png')} alt="" />
+            <img src={require('../../asset/images/icon_mostly_sunny.png')} alt="" />
           </div>
           <div className='switch'>
-          <div className='temp-text'>87</div>
-          <div className='toggle'>
-          <Switch
+            <div className='temp-text'>
+              {!checked?celsius.toFixed(0):farenheit.toFixed(0)}</div>
+            <div className='toggle'>
+              <Switch
                 borderRadius={4}
                 onChange={handleChange}
                 checked={checked}
@@ -91,17 +106,18 @@ const Home = () => {
                   </div>
                 }
               />
-          </div>
+            </div>
           </div>
           <div className='text-basedon-temp'>
-            Mostly Sunny
+          {items && items.current_observation && items.current_observation.condition.text}
           </div>
 
-      </div>
+        </div>
       </div>
       <div className='footer'>
         <div className='footer-items'>
           <div className='degree'>
+
             <img src={require('../../asset/images/icon_temperature_info.png')} alt="" />
             <div className='degree-text'>
               <div className='min-max'>Min-Max</div>

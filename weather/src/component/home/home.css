@@ -10,7 +10,7 @@
 
     height: 50px;
     width: 40%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding-left: 9px;
 }
 
@@ -23,13 +23,13 @@
     display: flex;
     height: 17px;
     width: 219px;
-    padding-top: 10px;
+    padding-top: 17px;
     padding-left: 10px;
 }
 
 .city {
     height: 24px;
-    width: 153px;
+    width: 130px;
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 20px;
@@ -83,6 +83,13 @@
 .switch {
     display: flex;
     flex-direction: row;
+    
+}
+.react-switch-bg {
+    border: 1px solid white !important;
+    background-color: transparent !important;
+
+
 }
 
 .center-items {
@@ -98,17 +105,18 @@
 
 .toggle {
     padding-top: 35px;
+    padding-left: 10px;
 }
 
 .text-basedon-temp {
     height: 25px;
-    width: 132px;
+    width: 301px;
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 22px;
     /* font-weight: 300; */
     letter-spacing: 0;
-    line-height: 25px;
+    line-height: 38px;
     text-align: center;
 }
 
